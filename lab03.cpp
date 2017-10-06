@@ -4,7 +4,7 @@
 #include <vector>
 
 template<class T>
-std::vector<T> generate_random_vector(std::size_t num, T min=-10, T max=10)
+std::vector<T> generate_random_vector(std::size_t num, T min = -10, T max = 10)
 {
     std::random_device rd;
     std::mt19937 e2(rd());
